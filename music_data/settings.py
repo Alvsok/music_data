@@ -156,6 +156,13 @@ SPECTACULAR_SETTINGS = {
     'TITLE': 'Django + DRF + PostgreSQL API',
     'DESCRIPTION': 'Документация для каталога музыки',
     'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    'SWAGGER_UI_SETTINGS': {
+        'deepLinking': True,
+        'persistAuthorization': True,
+        'displayOperationId': True,
+    },
+    'COMPONENT_SPLIT_REQUEST': True,
 }
 
 
